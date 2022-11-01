@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2022 Iconica
+//
+// SPDX-License-Identifier: BSD-3-Clause
+
 import 'package:bottom_alert_dialog/src/bottom_alert_dialog_config.dart';
 import 'package:flutter/material.dart';
 
