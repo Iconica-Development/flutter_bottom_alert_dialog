@@ -1,4 +1,4 @@
-[![pub package](https://img.shields.io/pub/v/bottom_alert_dialog.svg)](https://github.com/Iconica-Development) [![Build status](https://github.com/Iconica-Development/flutter_bottom_alert_dialog)](https://github.com/Iconica-Development/flutter_bottom_alert_dialog/actions/new) [![style: effective dart](https://img.shields.io/badge/style-effective_dart-40c4ff.svg)](https://github.com/tenhobi/effective_dart) 
+[![pub package](https://img.shields.io/pub/v/bottom_alert_dialog.svg)](https://github.com/Iconica-Development) [![Build status](https://github.com/Iconica-Development/flutter_bottom_alert_dialog/workflows/main.yml/badge.svg)](https://github.com/Iconica-Development/flutter_bottom_alert_dialog/actions/new) [![style: effective dart](https://img.shields.io/badge/style-effective_dart-40c4ff.svg)](https://github.com/tenhobi/effective_dart) 
 
 Bottom alert dialog widget. 
 
