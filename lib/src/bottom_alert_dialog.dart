@@ -279,7 +279,7 @@ class BottomAlertDialog extends StatelessWidget {
                 ),
                 if (closeButton ?? false) ...[
                   Padding(
-                    padding: const EdgeInsets.all(5),
+                    padding: const EdgeInsets.all(0),
                     child: Align(
                       alignment: Alignment.topRight,
                       child: closeButtonBuilder.call(
