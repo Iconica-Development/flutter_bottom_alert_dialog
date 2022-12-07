@@ -29,6 +29,7 @@ class BottomAlertDialogConfig extends InheritedWidget {
     CloseButtonBuilder? closeButtonBuilder,
     this.yesText = 'Yes',
     this.noText = 'No',
+    this.backgroundColor,
     super.key,
   })  : _buttonBuilder = buttonBuilder,
         _closeButtonBuilder = closeButtonBuilder;
@@ -37,6 +38,7 @@ class BottomAlertDialogConfig extends InheritedWidget {
   final CloseButtonBuilder? _closeButtonBuilder;
   final String yesText;
   final String noText;
+  final Color? backgroundColor;
 
   ButtonBuilder get buttonBuilder =>
       _buttonBuilder ??
