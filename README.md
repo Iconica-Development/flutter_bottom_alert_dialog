@@ -1,18 +1,18 @@
 [![pub package](https://img.shields.io/pub/v/bottom_alert_dialog.svg)](https://github.com/Iconica-Development) [![Build status](https://img.shields.io/github/workflow/status/Iconica-Development/flutter_bottom_alert_dialog/CI)](https://github.com/Iconica-Development/flutter_bottom_alert_dialog/actions/new) [![style: effective dart](https://img.shields.io/badge/style-effective_dart-40c4ff.svg)](https://github.com/tenhobi/effective_dart) 
 
-Bottom alert dialog widget. 
+Bottom Alert Dialog widget.
 
-## Install
+![Bottom Alert Dialog GIF](flutter_bottom_alert_dialog.gif)
 
-To use this package, add `bottom_alert_dialog` as a [dependency in your pubspec.yaml file](https://flutter.dev/docs/development/platform-integration/platform-channels).
+## Setup
+
+To use this package, add `flutter_bottom_alert_dialog` as a dependency in your pubspec.yaml file.
 
 ## How to use
 
-### Configure
-
-To configure the bottom alert dialog use the ```BottomAlertDialogConfig``` inherited widget.
-Make sure that ```BottomAlertDialog``` is a child of ```BottomAlertDialogConfig``` so that ```BottomAlertDialogConfig``` can be read from the build context.
-To ensure that ```BottomAlertDialogConfig``` is available in the widget builder of ```showDialog()``` implement the MaterialApp builder like this:
+To configure the bottom alert dialog use the `BottomAlertDialogConfig` inherited widget.
+Make sure that `BottomAlertDialog` is a child of `BottomAlertDialogConfig` so that `BottomAlertDialogConfig` can be read from the build context.
+To ensure that `BottomAlertDialogConfig` is available in the widget builder of `showDialog()` implement the `MaterialApp` builder like this:
 ```dart
  void main() {
   runApp(
@@ -43,9 +43,7 @@ You can use one of the built in Flutter dialog functions to show a dialog like t
 );
 ```
 
-See [Example Code](example/lib/main.dart) for more info.
-
-![example image](example.png)
+See the [Example Code](example/lib/main.dart) for an example on how to use this package.
 
 ## Issues
 
@@ -57,4 +55,4 @@ If you would like to contribute to the plugin (e.g. by improving the documentati
 
 ## Author
 
-This bottom_alert_dialog for Flutter is developed by [Iconica](https://iconica.nl). You can contact us at <support@iconica.nl>
+This `bottom_alert_dialog` for Flutter is developed by [Iconica](https://iconica.nl). You can contact us at <support@iconica.nl>
