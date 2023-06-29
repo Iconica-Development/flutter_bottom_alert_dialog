@@ -234,8 +234,7 @@ class BottomAlertDialog extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    var closeButtonBuilder =
-        BottomAlertDialogConfig.of(context).closeButtonBuilder;
+    var config = BottomAlertDialogConfig.of(context);
 
     return Column(
       children: [
@@ -243,7 +242,8 @@ class BottomAlertDialog extends StatelessWidget {
         AlertDialog(
           insetPadding: EdgeInsets.zero,
           contentPadding: EdgeInsets.zero,
-          backgroundColor: Theme.of(context).cardColor,
+          backgroundColor:
+              config.backgroundColor ?? Theme.of(context).cardColor,
           shape: const RoundedRectangleBorder(
             borderRadius: BorderRadius.only(
               topLeft: Radius.circular(10),
@@ -282,7 +282,7 @@ class BottomAlertDialog extends StatelessWidget {
                     padding: const EdgeInsets.all(0),
                     child: Align(
                       alignment: Alignment.topRight,
-                      child: closeButtonBuilder.call(
+                      child: config.closeButtonBuilder.call(
                         context,
                         onPressed: () => Navigator.pop(context),
                       ),
