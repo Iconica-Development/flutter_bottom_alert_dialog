@@ -4,6 +4,9 @@ Bottom Alert Dialog widget.
 
 ![Bottom Alert Dialog GIF](flutter_bottom_alert_dialog.gif)
 
+Figma Design that defines this component (only accessible for Iconica developers): https://www.figma.com/file/4WkjwynOz5wFeFBRqTHPeP/Iconica-Design-System?type=design&node-id=356%3A3332&mode=design&t=XulkAJNPQ32ARxWh-1
+Figma clickable prototype that demonstrates this component (only accessible for Iconica developers): https://www.figma.com/proto/4WkjwynOz5wFeFBRqTHPeP/Iconica-Design-System?type=design&node-id=340-611&viewport=-243%2C199%2C0.3&t=XulkAJNPQ32ARxWh-0&scaling=min-zoom&starting-point-node-id=430%3A15520&show-proto-sidebar=1
+
 ## Setup
 
 To use this package, add `flutter_bottom_alert_dialog` as a dependency in your pubspec.yaml file.

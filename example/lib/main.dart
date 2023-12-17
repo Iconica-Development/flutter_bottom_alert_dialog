@@ -8,6 +8,9 @@ import 'package:flutter/material.dart';
 void main() {
   runApp(
     MaterialApp(
+      theme: ThemeData(
+        useMaterial3: false,
+      ),
       home: const BottomAlertDialogDemo(),
       builder: (context, child) {
         return BottomAlertDialogConfig(
@@ -277,7 +280,7 @@ class BottomAlertDialogDemo extends StatelessWidget {
                             Navigator.of(context).pop();
                           },
                           child: const Text('Ok'),
-                        )
+                        ),
                       ],
                     );
                   },
