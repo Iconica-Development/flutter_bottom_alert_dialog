@@ -102,16 +102,14 @@ class BottomAlertDialogConfig extends InheritedWidget {
 
   CloseButtonBuilder get closeButtonBuilder =>
       _closeButtonBuilder ??
-      (context, {required onPressed}) {
-        return IconButton(
-          onPressed: onPressed,
-          icon: const Icon(
-            Icons.close,
-            size: 25,
-            color: Colors.black,
-          ),
-        );
-      };
+      (context, {required onPressed}) => IconButton(
+            onPressed: onPressed,
+            icon: const Icon(
+              Icons.close,
+              size: 25,
+              color: Colors.black,
+            ),
+          );
 
   static BottomAlertDialogConfig of(BuildContext context) {
     var result =
